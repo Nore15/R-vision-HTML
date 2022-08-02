@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo1</title>
+    <link rel="stylesheet" href="../CSS/Exo1.css">
+    <script type="text/javascript" src="../JS/JQuery 3.5.1.js"></script>
+    <script type="text/javascript" src="../JS/MesFonctions.js"></script>
+    <script>
+        $
+        (
+            function()
+            {
+              var bestScore = localStorage.getItem('bestScore');
+              console.log(bestScore)
+              if (bestScore == null) {
+                localStorage.setItem('bestScore', 0)
+              }
+              $('#bestScore').html(localStorage.getItem('bestScore'))
+              $('.vert-center').click(Exo1);
+              var intervalId = setInterval(decrease, 1000);
+            }
+        );
+        
+    </script>
+</head>
+<body>
+  <div id="bestScore"></div>
+  <div id="score">0</div>
+  <div id="time">10</div>
+  <div class="vert-center">
+  </div>
+</body>
+</html>

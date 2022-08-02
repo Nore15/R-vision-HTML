@@ -1,0 +1,7 @@
+.vert-center {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: rgb(192, 16, 16);
+	cursor: pointer;
+}
