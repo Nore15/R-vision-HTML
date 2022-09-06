@@ -1,46 +1,31 @@
 #rec1{
     width: 100px; 
-    height: 100px; 
-    border-radius: 50%;
-    border-radius: 50%;
-    border-color: red;
-    border-style: solid;
-    border-width: 10px;
+    height: 300px; 
+    background-color: red;
     margin: auto;
     text-align: center;
-    line-height: 6;
-}
-#rec2{
-    width: 100px; 
-    height: 100px; 
-    border-radius: 50%;
-    border-radius: 50%;
-    border-color: blue;
-    border-style: solid;
-    border-width: 10px;
-    margin: auto;
-    text-align: center;
-    line-height: 6;
-}
-#rec3{
-    width: 100px; 
-    height: 100px; 
-    border-radius: 50%;
-    border-radius: 50%;
-<<<<<<< HEAD
-    border-color: rgb(20, 230, 55);
-=======
-    border-color: yellow;
->>>>>>> e9248942de528337ae5dacc2039e70ddb8f7e1c7
-    border-style: solid;
-    border-width: 10px;
-    margin: auto;
-    text-align: center;
-    line-height: 6;
+    
 }
 
-#divExo2
-{
+#rec2{
+    width: 100px; 
+    height: 600px; 
+    background-color: rgb(9, 255, 0);
+    margin: auto;
+    text-align: center;
+    
+}
+
+#rec3{
+    width: 100px; 
+    height: 80px;
+    background-color: blue;
+    margin: auto;
+    text-align: center;
+    
+}
+
+#divExo2{
     display: flex;
     justify-content: space-evenly;
 }
